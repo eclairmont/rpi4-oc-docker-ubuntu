@@ -1,5 +1,5 @@
 # rpi4-oc-docker-ubuntu
-Raspberry Pi 4 overclock + docker install on Ubuntu 20.10
+Raspberry Pi 4 overclock + docker install on Ubuntu 20.10 arm64
 
 This is a simple script to get up and running with docker on Ubuntu 20.10 on a Raspberry Pi 4 + argon fan hat.
 
