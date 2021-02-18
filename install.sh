@@ -22,6 +22,7 @@ EOL
 # update apt and install prereqs
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common 
+sudo apt-get dist-upgrade -7
 
 # add apt repos for docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
