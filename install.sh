@@ -4,8 +4,13 @@
 
 # Install the script for the argon fan hat.
 # Change or comment this out this if you have a different/no fan hat.
-curl https://download.argon40.com/argonfanhat.sh > /tmp/argonfanhat.sh
-source /tmp/argonfanhat.sh
+# curl https://download.argon40.com/argonfanhat.sh > /tmp/argonfanhat.sh
+# source /tmp/argonfanhat.sh
+
+# Install this for the argon one rpi4 case fan
+# curl https://download.argon40.com/argon1.sh > /tmp/argon1.sh
+# source /tmp/argon1.sh
+
 
 # Add the lines required to overclock the pi 4.
 # Note: Only do this if you have a decent active cooling setup
