@@ -21,13 +21,13 @@
 cat >> /boot/firmware/config.txt <<EOL
 over_votage=6
 arm_freq=2100
-gpu_freq=600
+gpu_freq=500
 EOL
 
 # update apt and install prereqs
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common 
-sudo apt-get dist-upgrade -7
+sudo apt-get dist-upgrade -y
 
 # add apt repos for docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
